@@ -15,6 +15,7 @@
     height: 100vh;
     background-color: rgb(14, 18, 31);
     width: 60%;
+    overflow: hidden;
 
 }
 .fixed-position{
@@ -24,12 +25,31 @@
     background-color: rgb(34, 47, 66);
     border-radius: 500px;
     position: fixed;
+        
 }
 .img-sizing{
     margin-left: 60px;
     margin-top: 120px;
 }
-.sec-div-sizing{
-    margin-left: 250px;
+.sec-div-img1-sizing{
+    margin-left: 280px;
     margin-top: -20px;
+}
+.sec-div-img2-sizing{
+    margin-left: 105px;
+    margin-top: -40px;
+}
+.sec-div-img3-sizing{
+    margin-left: 280px;
+    margin-top: 65px;
+}
+.align-div1-text{
+    margin-top: 140px;
+    margin-left: 320px;
+    z-index: 3;
+    position: relative;
+}
+.align-div1-sec-2-text{
+    margin-top: 150px;
+    margin-left: 50px;
 }
