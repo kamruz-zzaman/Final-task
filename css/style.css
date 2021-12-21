@@ -11,12 +11,23 @@
     background-color: rgb(34, 47, 66);
     width: 40%;
 }
-.sec-div{
+.f-sec-div{
     height: 100vh;
     background-color: rgb(14, 18, 31);
     width: 60%;
     overflow: hidden;
 
+}
+.sec-div{
+    height: 100vh;
+    background-color: rgb(22, 4, 85);
+    width: 40%;
+}
+.s-sec-div{
+    height: 100vh;
+    background-color: rgb(6, 21, 70);
+    width: 60%;
+    overflow: hidden;
 }
 .fixed-position{
     width: 300px;
@@ -25,7 +36,6 @@
     background-color: rgb(34, 47, 66);
     border-radius: 500px;
     position: fixed;
-        
 }
 .img-sizing{
     margin-left: 60px;
