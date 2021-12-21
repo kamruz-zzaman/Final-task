@@ -3,31 +3,28 @@
     padding: 0;
     margin: 0;
 }
-.main-class{
-    display: flex;
-}
-.first-div{
+.content-div{
+    position:fixed;
     height: 100vh;
     background-color: rgb(34, 47, 66);
     width: 40%;
 }
 .f-sec-div{
+    float:inline-end;
     height: 100vh;
     background-color: rgb(14, 18, 31);
     width: 60%;
     overflow: hidden;
 
 }
-.sec-div{
-    height: 100vh;
-    background-color: rgb(22, 4, 85);
-    width: 40%;
+.slideContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-.s-sec-div{
-    height: 100vh;
-    background-color: rgb(6, 21, 70);
-    width: 60%;
-    overflow: hidden;
+.slideContainer .space{
+    width:40%;
+    height:100%;
 }
 .fixed-position{
     width: 300px;
@@ -63,3 +60,45 @@
     margin-top: 150px;
     margin-left: 50px;
 }
+.sec-slide-img1{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.common-slide-img2{
+    margin-top: -350px;
+    margin-left: 100px;
+}
+.third-slide-img1{
+    margin-top: 240px;
+    margin-left: 150px;
+}
+.fifth-slide{
+    margin-left: 105px;
+}
+.fifth-slide-img1{
+    margin-top: -100px;
+}
+.fifth-slide-img2{
+    margin-top: 80px;
+}
+.fifth-slide-img4{
+    margin-top: 30px;
+}
+.fifth-slide-img5{
+    margin-top: 80px;
+}
+.sixth-slide{
+    background: url(/img/interior.jpg);
+}
+.seventh-slide{
+    margin-top: 250px;
+}
+.sev-slide-img1{
+    margin-left: 200px;
+    margin-right: 0px;
+}
+.sev-slide-img2{
+    margin-left: -80px;
+    margin-bottom: 50px;
+}
+
