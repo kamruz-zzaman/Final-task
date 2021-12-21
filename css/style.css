@@ -14,9 +14,45 @@
     background-color: rgb(34, 47, 66);
     width: 40%;
 }
-.f-sec-div{
+.f-sec-div1{
     height: 100vh;
     background-color: rgb(14, 18, 31);
+    width: 60%;
+    overflow: hidden;
+}
+.f-sec-div2{
+    height: 100vh;
+    background-color: rgb(9, 4, 59);
+    width: 60%;
+    overflow: hidden;
+}
+.f-sec-div3{
+    height: 100vh;
+    background-color: rgb(22, 3, 66);
+    width: 60%;
+    overflow: hidden;
+}
+.f-sec-div4{
+    height: 100vh;
+    background-color: rgb(184, 186, 190);
+    width: 60%;
+    overflow: hidden;
+}
+.f-sec-div5{
+    height: 100vh;
+    background-color: rgb(34, 162, 172);
+    width: 60%;
+    overflow: hidden;
+}
+.f-sec-div6{
+    height: 100vh;
+    background-color: rgb(14, 18, 31);
+    width: 60%;
+    overflow: hidden;
+}
+.f-sec-div7{
+    height: 100vh;
+    background-color: #00bf72;
     width: 60%;
     overflow: hidden;
 }
@@ -107,4 +143,3 @@
     margin-left: -80px;
     margin-bottom: 50px;
 }
-
