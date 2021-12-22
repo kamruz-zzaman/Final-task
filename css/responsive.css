@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-slider{
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+   
+}
+.fast-slider-f{
+    height: 60vh;
+    background: rgb(17, 3, 95);
+}
+.fast-slider-f .img1{
+    margin-top: 80px;
+    margin-left: 30px;
+    
+}
+.fast-slider-f .img2{
+    margin-bottom: 80px;
+    margin-right: 30px;
+}
+.fast-slider-s{
+    height: 40vh;
+    background: rgb(15, 3, 82);
+}
+
+.second-slider-f{
+    height: 60vh;
+    background: rgb(22, 22, 26);
+}
+.second-slider-f .img-1{
+    width: 100px;
+}
+.second-slider-f .img-2{
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 83px;
+}
+.second-slider-f .img-3{
+    width: 120px;
+}
+.second-slider-f .img-4{
+    width: 120px;
+    margin-top: 40px;
+}
+.third-part{
+    margin-right: -30px;
+}
+.second-slider-f .img-5{
+   width: 40px;
+}
+.second-slider-f .img-6{
+   width: 50px;
+   margin-top: 70px;
+}
+.second-slider-f .img-7{
+   width: 70px;
+   margin-top: 50px;
+}
+.second-slider-s{
+    height: 40vh;
+    background: rgb(18, 34, 48);
+}
+.third-slider-f{
+    height: 60vh;
+    background: rgb(27, 210, 223);
+}
+.third-slider-f .img-1{
+    width: 120px;
+    margin-left: 5px;
+}
+.third-slider-f .img-2{
+    width: 120px;
+    margin-top: 23px;
+    margin-left: 5px;
+}
+.third-slider-f .img-3{
+    width: 110px;
+}
+.third-slider-f .img-4{
+    width: 110px;
+    margin-top: 38px;
+}
+.third-slider-f .img-5{
+    width: 100px;
+    margin-top: 54px;
+
+}
+.third-slider-s{
+    height: 40vh;
+    background: rgb(11, 113, 202);
+}
+.fourth-slider-f{
+    background: rgb(29, 10, 114);
+    height: 60vh;
+}
+.fourth-slider-f .img-1{
+    height: 280px;
+    margin-top: 43px;
+    margin-left: 50px;
+}
+.fourth-slider-f .img-2{
+    height: 270px;
+    margin-right: 50px
+}
+.fourth-slider-s{
+    background: rgb(139, 10, 165);
+    height: 40vh;
+}
+.fourth-slider-s button{
+    background-color: rgb(230, 10, 230);
+}
+.fifth-slider-f{
+    height: 60vh;
+    background:rgb(230, 227, 227) ;
+}
+.fifth-slider-f .img-1{
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 50px ;
+}
+.fifth-slider-f .img-2{
+    margin-left: 30px;
+    border: 5px solid rgb(139, 0, 194);
+    border-radius: 10px;
+    background-color:rgb(139, 0, 194) ;
+}
+.fifth-slider-f .img-3{
+    height: 280px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.fifth-slider-s{
+    height: 40vh;
+    background: rgb(139, 0, 194);
+}
+.fifth-slider-s img{
+    margin-top: -10px;
+}
+.sixth-slider-f{
+    height: 60vh;
+    background: url(/img/interior.jpg);
+}
+.sixth-slider-s{
+    height: 40vh;
+    background: rgb(28, 52, 131);
+}
+.seventh-slider-f{
+    height: 60vh;
+    background-color: rgb(19, 129, 62);
+}
+.seventh-slider-f .img-1{
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 50px ;
+}
+.seventh-slider-f .img-2{
+    margin-left: 30px;
+    border: 2px solid rgb(0, 194, 81);
+    border-radius: 10px;
+    background-color:#fff ;
+}
+.seventh-slider-f .img-3{
+    margin-top: 24px;
+    margin-left: -20px;
+}
+.seventh-slider-s{
+    height: 40vh;
+    background-color: rgb(19, 129, 62);
+}
+.slick-dots{
+    position: relative;
+    bottom: 100px;
+}
+.slick-dotted.slick-slider{
+    margin: 0;
+}
+.slick-dots li button:before{
+    color: rgba(138, 138, 138, 0.164);
+}
+.slick-dots li.slick-active button:before{
+    color: white;
+}
