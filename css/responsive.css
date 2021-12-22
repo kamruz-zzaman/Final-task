@@ -3,10 +3,16 @@
     margin: 0;
     padding: 0;
 }
-.first-slider{
+.autoplay{
+    position: relative;
+    overflow: hidden;
+}
+.slider{
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
    
 }
 .fast-slider-f{
@@ -172,14 +178,20 @@
     background-color: rgb(19, 129, 62);
 }
 .slick-dots{
-    position: relative;
-    bottom: 100px;
+    position: absolute;
+    bottom: 10px;
+    padding: 0;
+    margin: 0;
 }
 .slick-dotted.slick-slider{
     margin: 0;
+    padding: 0;
 }
 .slick-dots li button:before{
-    color: rgba(138, 138, 138, 0.164);
+    color: rgb(182, 182, 182);
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
 }
 .slick-dots li.slick-active button:before{
     color: white;
