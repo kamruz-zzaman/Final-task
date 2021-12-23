@@ -99,8 +99,26 @@
   z-index: 3;
   position: relative;
 }
-.align-div1-sec-2-text {
+.align-div2-text{
   margin-top: 150px;
+  margin-left: 200px; 
+  z-index: 3;
+  position: relative;
+}
+.align-div3-text{
+  margin-top: 140px;
+  margin-left: 250px; 
+  z-index: 3;
+  position: relative;
+}
+.align-div4-text{
+  margin-top: 140px;
+  margin-left: 50px; 
+  z-index: 3;
+  position: relative;
+}
+.align-div1-sec-2-text {
+  margin-top: 90px;
   margin-left: 50px;
 }
 .sec-slide-img1 {
@@ -143,4 +161,7 @@
 .sev-slide-img2 {
   margin-left: -80px;
   margin-bottom: 50px;
+}
+.svgtext1{
+  color: gray;
 }

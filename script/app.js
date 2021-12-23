@@ -11,23 +11,13 @@ const drawWhenScroll = () => {
     const drawPath = pathLength - (pathLength * calcScrollPercent());
     console.log(drawPath);
     if (drawPath == 815.8143310546875) {
-        svgSec.innerHTML=`<h5>1</h5>
-        <h1>1</h1>
-        <h5 class="text-end">1</h5>`;
-        contentSec.innerHTML=`<h1>ABC 456</h1>
-        <span>We are the best</span><br>
-        <span>web development company</span><br>
-        <span>in the world</span><br><br>
-        <div class="d-flex justify-content-between">
-            <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
-            <p class="me-5">SKIP</p>
+
+        svgSec.innerHTML = `<div class="text-light align-div1-text">
+        <h5>Redefining</h5>
+        <h1>UX Strategy</h1>
+        <h5 class="text-end">and UI design</h5>
         </div>`;
-    } 
-    else if(drawPath == 679.8452758789062){
-        svgSec.innerHTML=`<h5>2</h5>
-        <h1>2</h1>
-        <h5 class="text-end">2</h5>`;
-        contentSec.innerHTML=`<h1>ABC 456</h1>
+        contentSec.innerHTML = `<h1>ABC 456</h1>
         <span>We are the best</span><br>
         <span>web development company</span><br>
         <span>in the world</span><br><br>
@@ -36,68 +26,81 @@ const drawWhenScroll = () => {
             <p class="me-5">SKIP</p>
         </div>`;
     }
-    else if(drawPath == 543.876220703125){
-        svgSec.innerHTML=`<h5>3</h5>
-        <h1>3</h1>
-        <h5 class="text-end">3</h5>`;
-        contentSec.innerHTML=`<h1>ABC 456</h1>
+    else if (drawPath == 679.8452758789062) {
+        svgSec.innerHTML = `<div class="text-light align-div1-text"><h5>Powered by advance</h5>
+        <img width='250px' src="/ScrollAnimation Task Assets/nasa-mobile-app.png" alt="">
+        <h5 class="text-end">algorithms</h5></div>`;
+        contentSec.innerHTML = `<h1>ABC 345</h1>
         <span>We are the best</span><br>
         <span>web development company</span><br>
         <span>in the world</span><br><br>
         <div class="d-flex justify-content-between">
+            <p class='svgtext1'>coming soon</p>
+            <p class="me-5">SKIP</p>
+        </div>`;
+    }
+    else if (drawPath == 543.876220703125) {
+        svgSec.innerHTML = `<div class="text-light align-div1-text"><h5>The Next Big</h5>
+        <h1>Blockchain</h1>
+        <h5 class="text-end">Revolution</h5></div>`;
+        contentSec.innerHTML = `<h1>ABC 235</h1>
+        <span>We are the best web development</span><br>
+        <span> company in the world</span><br>
+        <div class="mt-4 d-flex justify-content-between">
+            <p class='svgtext1'>coming soon</p>
+            <p class="me-5">SKIP</p>
+        </div>`;
+    }
+    else if (drawPath == 407.90716552734375) {
+        svgSec.innerHTML = `<div class="text-light align-div2-text"><h1>25M+ Downloads</h1>
+        <h5 class="text-end">on appstore & googlr playstore</h5></div>`;
+        contentSec.innerHTML = `
+        <img width='200px' class='mb-3' src="/ScrollAnimation Task Assets/world-communication-awards-for-best-digital-experience.png" alt="">
+        <h1>ABC 235</h1>
+        <span>We are the best web development</span><br>
+        <span> company in the world</span><br>
+        <div class="mt-4 d-flex justify-content-between">
             <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
             <p class="me-5">SKIP</p>
         </div>`;
     }
-    else if(drawPath == 407.90716552734375){
-        svgSec.innerHTML=`<h5>4</h5>
-        <h1>4</h1>
-        <h5 class="text-end">4</h5>`;
-        contentSec.innerHTML=`<h1>ABC 456</h1>
-        <span>We are the best</span><br>
-        <span>web development company</span><br>
-        <span>in the world</span><br><br>
-        <div class="d-flex justify-content-between">
+    else if (drawPath == 271.9381103515625) {
+        svgSec.innerHTML = `<div class="text-light align-div4-text"><div class="text-light align-div3-text"><h5>Text Headline</h5>
+        <h1>Text Headline</h1>
+        <h5 class="text-end">Footer headline</h5></div>`;
+        contentSec.innerHTML = `<h1>ABC 567</h1>
+        <span>We are the best web development</span><br>
+        <span> company in the world</span><br>
+        <div class="mt-4 d-flex justify-content-between">
             <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
             <p class="me-5">SKIP</p>
         </div>`;
     }
-    else if(drawPath == 271.9381103515625){
-        svgSec.innerHTML=`<h5>5</h5>
-        <h1>5</h1>
-        <h5 class="text-end">5</h5>`;
-        contentSec.innerHTML=`<h1>ABC 456</h1>
-        <span>We are the best</span><br>
-        <span>web development company</span><br>
-        <span>in the world</span><br><br>
-        <div class="d-flex justify-content-between">
+    else if (drawPath == 135.96905517578125) {
+        svgSec.innerHTML = `
+        <div class="text-light align-div3-text"><h5>Developing ERP solution for</h5>
+        <h1>Text Headline</h1>
+        <h5 class="text-end">in furniture industry</h5></div>
+        `;
+        contentSec.innerHTML = `<h1>ABC 678</h1>
+        <span>Best since 2007</span><br>
+        <span>We offer wide range of</span><br>
+        <span>web and app developing</span><br><br>
+        <div class="mt-4 d-flex justify-content-between">
             <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
             <p class="me-5">SKIP</p>
         </div>`;
     }
-    else if(drawPath == 135.96905517578125){
-        svgSec.innerHTML=`<h5>6</h5>
-        <h1>6</h1>
-        <h5 class="text-end">6</h5>`;
-        contentSec.innerHTML=`<h1>ABC 456</h1>
-        <span>We are the best</span><br>
-        <span>web development company</span><br>
-        <span>in the world</span><br><br>
-        <div class="d-flex justify-content-between">
-            <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
-            <p class="me-5">SKIP</p>
-        </div>`;
-    }
-    else if(drawPath == 0){
-        svgSec.innerHTML=`<h5>7</h5>
-        <h1>7</h1>
-        <h5 class="text-end">7</h5>`;
-        contentSec.innerHTML=`<h1>ABC 456</h1>
-        <span>We are the best</span><br>
-        <span>web development company</span><br>
-        <span>in the world</span><br><br>
-        <div class="d-flex justify-content-between">
-            <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
+    else if (drawPath == 0) {
+        svgSec.innerHTML = `<div class="text-light align-div1-text"><h5 class="text-end">Biggest classifieds</h5>
+        <h1 class="text-end">East Asia</h1>
+        <h5 class="text-end">Countries</h5></div>`;
+        contentSec.innerHTML = `<img width='200px' class='mb-3' src="/ScrollAnimation Task Assets/world-communication-awards-for-best-digital-experience.png" alt="">
+        <h1>ABC 23478</h1>
+        <span>We are the best <br> web development</span><br>
+        <span> company in the world</span><br>
+        <div class="mt-4 d-flex justify-content-between">
+            <p class='svgtext1'>coming soon</p>
             <p class="me-5">SKIP</p>
         </div>`;
     }
