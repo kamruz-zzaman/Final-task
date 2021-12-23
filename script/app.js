@@ -1,5 +1,7 @@
 const svgSec = document.getElementById('svgSec')
 const contentSec = document.getElementById('contentSec')
+const firstContent = document.getElementById('firstContent')
+const svgPath = document.getElementById('svgPath')
 
 const path = document.getElementById('Opaque_Ring')
 const pathLength = path.getTotalLength();
@@ -11,7 +13,8 @@ const drawWhenScroll = () => {
     const drawPath = pathLength - (pathLength * calcScrollPercent());
     console.log(drawPath);
     if (drawPath == 815.8143310546875) {
-
+        firstContent.style.backgroundColor = 'rgb(34, 47, 66)'
+        svgPath.style.backgroundColor = 'rgb(34, 47, 66)'
         svgSec.innerHTML = `<div class="text-light align-div1-text">
         <h5>Redefining</h5>
         <h1>UX Strategy</h1>
@@ -27,6 +30,8 @@ const drawWhenScroll = () => {
         </div>`;
     }
     else if (drawPath == 679.8452758789062) {
+        firstContent.style.backgroundColor = '#110e3d'
+        svgPath.style.backgroundColor = '#110e3d'
         svgSec.innerHTML = `<div class="text-light align-div1-text"><h5>Powered by advance</h5>
         <img width='250px' src="/ScrollAnimation Task Assets/nasa-mobile-app.png" alt="">
         <h5 class="text-end">algorithms</h5></div>`;
@@ -40,6 +45,8 @@ const drawWhenScroll = () => {
         </div>`;
     }
     else if (drawPath == 543.876220703125) {
+        firstContent.style.backgroundColor = '#393299'
+        svgPath.style.backgroundColor = '#393299'
         svgSec.innerHTML = `<div class="text-light align-div1-text"><h5>The Next Big</h5>
         <h1>Blockchain</h1>
         <h5 class="text-end">Revolution</h5></div>`;
@@ -52,6 +59,8 @@ const drawWhenScroll = () => {
         </div>`;
     }
     else if (drawPath == 407.90716552734375) {
+        firstContent.style.backgroundColor = '#5c298b'
+        svgPath.style.backgroundColor = '#5c298b'
         svgSec.innerHTML = `<div class="text-light align-div2-text"><h1>25M+ Downloads</h1>
         <h5 class="text-end">on appstore & googlr playstore</h5></div>`;
         contentSec.innerHTML = `
@@ -65,6 +74,8 @@ const drawWhenScroll = () => {
         </div>`;
     }
     else if (drawPath == 271.9381103515625) {
+        firstContent.style.backgroundColor = '#1c5aac'
+        svgPath.style.backgroundColor = '#1c5aac'
         svgSec.innerHTML = `<div class="text-light align-div4-text"><div class="text-light align-div3-text"><h5>Text Headline</h5>
         <h1>Text Headline</h1>
         <h5 class="text-end">Footer headline</h5></div>`;
@@ -77,6 +88,8 @@ const drawWhenScroll = () => {
         </div>`;
     }
     else if (drawPath == 135.96905517578125) {
+        firstContent.style.backgroundColor = '#1c32ac'
+        svgPath.style.backgroundColor = '#1c32ac'
         svgSec.innerHTML = `
         <div class="text-light align-div3-text"><h5>Developing ERP solution for</h5>
         <h1>Text Headline</h1>
@@ -92,6 +105,8 @@ const drawWhenScroll = () => {
         </div>`;
     }
     else if (drawPath == 0) {
+        firstContent.style.backgroundColor = '#0d9b65'
+        svgPath.style.backgroundColor = '#0d9b65'
         svgSec.innerHTML = `<div class="text-light align-div1-text"><h5 class="text-end">Biggest classifieds</h5>
         <h1 class="text-end">East Asia</h1>
         <h5 class="text-end">Countries</h5></div>`;
