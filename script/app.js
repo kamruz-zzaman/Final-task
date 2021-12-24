@@ -35,7 +35,7 @@ const drawWhenScroll = () => {
         if (img21.classList.contains("img21A")) {
             img21.classList.remove("img21A")
         }
-        if (img21.classList.contains("img22A")) {
+        if (img22.classList.contains("img22A")) {
            img22.classList.remove("img22A") 
         }
         
