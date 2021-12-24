@@ -64,19 +64,22 @@ const drawWhenScroll = () => {
         firstContent.style.backgroundColor = 'rgb(34, 47, 66)'
         svgPath.style.backgroundColor = 'rgb(34, 47, 66)'
         svgSec.innerHTML = `
-        <div class="contentAnimation text-light align-div1-text">
-        <h5>Redefining</h5>
-        <h1>UX Strategy</h1>
+        <div class=" text-light align-div1-text">
+        <h5 class='animate__animated animate__fadeInUp'>Redefining</h5>
+        <h1 class='animate__animated animate__fadeInUp'>UX Strategy</h1>
         <h5 class="contentBottom text-end">and UI design</h5>
         </div>`;
         contentSec.innerHTML = `
-        <div class='textContent'>
-        <h1>ABC 456</h1>
+        <div class=''>
+        <h1 class='animate__animated animate__fadeInDown'>ABC 456</h1>
+        <div class="animate__animated animate__fadeIn">
         <span>We are the best</span><br>
         <span>web development company</span><br>
-        <span>in the world</span><br><br>
+        <span>in the world</span>
+        </div>
+        <br>
         <div class="d-flex justify-content-between">
-            <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
+            <p class="animate__animated animate__zoomIn">Vew cose study <i class="fas fa-arrow-right"></i></p>
             <p class="me-5">SKIP</p>
         </div></div>`;
     }
@@ -105,17 +108,20 @@ const drawWhenScroll = () => {
         svgSec.innerHTML = `
         <div class="contentAnimation text-light align-div1-text">
         <h5>Powered by advance</h5>
-        <img width='100%' class='contentImage my-2' src="/ScrollAnimation Task Assets/nasa-mobile-app.png" alt="">
+        <img width='100%' class='animate__animated animate__fadeInDown my-2' src="/ScrollAnimation Task Assets/nasa-mobile-app.png" alt="">
         <h5 class="contentBottom text-end">algorithms</h5>
         </div>`;
         contentSec.innerHTML = `
-        <div class='textContent'>
-        <h1>ABC 345</h1>
+        <div class=''>
+        <h1 class='animate__animated animate__fadeInDown'>ABC 345</h1>
+        <div class="animate__animated animate__fadeIn">
         <span>We are the best</span><br>
         <span>web development company</span><br>
-        <span>in the world</span><br>
+        <span>in the world</span>
+        </div>
+        <br>
         <div class="mt-4 d-flex justify-content-between">
-            <p class='svgtext1'>coming soon</p>
+            <p class='svgtext1 animate__animated animate__zoomIn'>coming soon</p>
             <p class="me-5">SKIP</p>
         </div></div>`;
         img11.classList.remove("img22A")
@@ -146,18 +152,21 @@ const drawWhenScroll = () => {
         firstContent.style.backgroundColor = '#393299'
         svgPath.style.backgroundColor = '#393299'
         svgSec.innerHTML = `
-        <div class="contentAnimation text-light align-div1-text">
-        <h5>The Next Big</h5>
-        <h1>Blockchain</h1>
+        <div class=" text-light align-div1-text">
+        <h5 class="animate__animated animate__fadeInDown">The Next Big</h5>
+        <h1 class="animate__animated animate__fadeInDown">Blockchain</h1>
         <h5 class="contentBottom text-end">Revolution</h5>
         </div>`;
         contentSec.innerHTML = `
-        <div class='textContent'>
-        <h1>ABC 235</h1>
+        <div>
+        <h1 class='animate__animated animate__fadeInUp'>ABC 235</h1>
+        <div class='animate__animated animate__fadeIn'>
         <span>We are the best web development</span><br>
-        <span> company in the world</span><br>
+        <span> company in the world</span>
+        </div>
+        <br>
         <div class="mt-4 d-flex justify-content-between">
-            <p class='svgtext1'>coming soon</p>
+            <p class='svgtext1 animate__animated animate__zoomIn'>coming soon</p>
             <p class="me-5">SKIP</p>
         </div></div>`;
         img21.classList.remove("img21A")
@@ -195,18 +204,21 @@ const drawWhenScroll = () => {
         firstContent.style.backgroundColor = '#5c298b'
         svgPath.style.backgroundColor = '#5c298b'
         svgSec.innerHTML = `
-        <div class="contentAnimation text-light align-div2-text">
-        <h1>25M+ Downloads</h1>
-        <h5 class="contentBottom text-end">on appstore & googlr playstore</h5>
+        <div class=" text-light align-div2-text">
+        <h1 class="animate__animated animate__fadeInUp">25M+ Downloads</h1>
+        <h5 class="animate__animated animate__fadeInDown text-end">on appstore & googlr playstore</h5>
         </div>`;
         contentSec.innerHTML = `
-        <div class='textContent'>
+        <div class=''>
         <img width='200px' class='mb-3' src="/ScrollAnimation Task Assets/world-communication-awards-for-best-digital-experience.png" alt="">
-        <h1>ABC 235</h1>
+        <h1 class='animate__animated animate__fadeInDown'>ABC 235</h1>
+        <div class='animate__animated animate__fadeIn'>
         <span>We are the best web development</span><br>
-        <span> company in the world</span><br>
+        <span> company in the world</span>
+        </div>
+        <br>
         <div class="mt-4 d-flex justify-content-between">
-            <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
+            <p class='animate__animated animate__zoomIn'>Vew cose study <i class="fas fa-arrow-right"></i></p>
             <p class="me-5">SKIP</p>
         </div></div>`;
         img31.classList.remove("img21A")
@@ -232,18 +244,21 @@ const drawWhenScroll = () => {
         firstContent.style.backgroundColor = '#1c5aac'
         svgPath.style.backgroundColor = '#1c5aac'
         svgSec.innerHTML = `
-        <div class="contentAnimation text-light align-div4-text">
-        <h5>Text Headline</h5>
-        <h1>Text Headline</h1>
+        <div class="text-light align-div4-text">
+        <h5 class='animate__animated animate__fadeInUp'>Text Headline</h5>
+        <h1 class='animate__animated animate__fadeInUp'>Text Headline</h1>
         <h5 class="contentBottom text-end">Footer headline</h5>
         </div>`;
         contentSec.innerHTML = `
-        <div class='textContent'>
-        <h1>ABC 567</h1>
+        <div class=''>
+        <h1 class='animate__animated animate__fadeInDown'>ABC 567</h1>
+        <div class='class='animate__animated animate__fadeIn'> 
+        <div class='animate__animated animate__fadeIn'>
         <span>We are the best web development</span><br>
         <span> company in the world</span><br>
+        </div>
         <div class="mt-4 d-flex justify-content-between">
-            <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
+            <p class='animate__animated animate__zoomIn'>Vew cose study <i class="fas fa-arrow-right"></i></p>
             <p class="me-5">SKIP</p>
         </div></div>`;
         img21.classList.remove("img41A")
@@ -259,7 +274,7 @@ const drawWhenScroll = () => {
         dotsfill6.style.opacity = 1;
         dotsfill7.style.opacity = 0;
         if (img72.classList.contains("img72A")) {
-            
+
             img72.classList.remove("img72A")
         }
         img61.classList.add("img21A")
@@ -273,13 +288,16 @@ const drawWhenScroll = () => {
         </div>
         `;
         contentSec.innerHTML = `
-        <div class='textContent'>
-        <h1>ABC 678</h1>
+        <div class=''>
+        <h1 class='animate__animated animate__fadeInUp'>ABC 678</h1>
+        <div class="animate__animated animate__fadeIn">
         <span>Best since 2007</span><br>
         <span>We offer wide range of</span><br>
-        <span>web and app developing</span><br><br>
+        <span>web and app developing</span><br>
+        </div>
+        <br>
         <div class="mt-4 d-flex justify-content-between">
-            <p>Vew cose study <i class="fas fa-arrow-right"></i></p>
+            <p class='animate__animated animate__zoomIn'>Vew cose study <i class="fas fa-arrow-right"></i></p>
             <p class="me-5">SKIP</p>
         </div></div>`;
         img51.classList.remove("img22A")
@@ -302,19 +320,22 @@ const drawWhenScroll = () => {
         firstContent.style.backgroundColor = '#0d9b65'
         svgPath.style.backgroundColor = '#0d9b65'
         svgSec.innerHTML = `
-        <div class="contentAnimation text-light align-div1-text">
-        <h5 class="text-start">Biggest classifieds</h5>
-        <h1 class="text-end">East Asia</h1>
+        <div class=" text-light align-div1-text">
+        <h5 class="text-start animate__animated animate__fadeInUp">Biggest classifieds</h5>
+        <h1 class="text-end animate__animated animate__fadeInUp">East Asia</h1>
         <h5 class="contentBottom text-end">Countries</h5>
         </div>`;
         contentSec.innerHTML = `
-        <div class='textContent'>
+        <div class=''>
         <img width='200px' class='mb-3' src="/ScrollAnimation Task Assets/world-communication-awards-for-best-digital-experience.png" alt="">
-        <h1>ABC 23478</h1>
+        <h1 class="animate__animated animate__fadeInDown">ABC 23478</h1>
+        <div class="animate__animated animate__fadeIn">
         <span>We are the best <br> web development</span><br>
-        <span> company in the world</span><br>
-        <div class="mt-4 d-flex justify-content-between">
-            <p class='svgtext1'>coming soon</p>
+        <span> company in the world</span>
+        </div>
+        <br>
+        <div class="d-flex justify-content-between">
+            <p  class='svgtext2 animate__animated animate__zoomIn'>coming soon</p>
             <p class="me-5">SKIP</p>
         </div>
         </div>

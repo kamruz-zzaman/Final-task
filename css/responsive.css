@@ -196,3 +196,9 @@
 .slick-dots li.slick-active button:before{
     color: white;
 }
+.animate__animated.animate__fadeIn{
+    --animate-duration: 3s;
+  }
+.svgtext2{
+    color: rgb(206, 182, 182);
+}
