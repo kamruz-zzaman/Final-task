@@ -188,12 +188,12 @@
   animation: identifier2 2s 1;
   transition: 0.5s;
 }
-.sec-slide-img1{
-  animation: identifier 1s;
+.img22A{
+  animation: identifier 0.5s;
   transition: 0.5s;
 }
-.sec-slide-img2{
-  animation: identifier2 2s;
+.img21A{
+  animation: identifier2 0.5s;
   transition: 0.5s;
 }
 .svgtext1{

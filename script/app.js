@@ -10,6 +10,8 @@ const dotsfill4 = document.getElementById('dotsfill4')
 const dotsfill5 = document.getElementById('dotsfill5')
 const dotsfill6 = document.getElementById('dotsfill6')
 const dotsfill7 = document.getElementById('dotsfill7')
+const img21 = document.getElementById('img21')
+const img22 = document.getElementById('img22')
 
 const path = document.getElementById('Opaque_Ring')
 const pathLength = path.getTotalLength();
@@ -59,6 +61,8 @@ const drawWhenScroll = () => {
         dotsfill6.style.opacity = 0;
         dotsfill7.style.opacity = 0;
 
+        img21.classList.add("img21A")
+        img22.classList.add("img22A")
         firstContent.style.backgroundColor = '#110e3d'
         svgPath.style.backgroundColor = '#110e3d'
         svgSec.innerHTML = `
@@ -103,6 +107,8 @@ const drawWhenScroll = () => {
             <p class='svgtext1'>coming soon</p>
             <p class="me-5">SKIP</p>
         </div></div>`;
+        img21.classList.remove("img21A")
+        img22.classList.remove("img22A")
     }
     else if (drawPath == 407.90716552734375) {
         dotsfill1.style.opacity = 1;
