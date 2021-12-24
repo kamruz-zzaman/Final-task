@@ -32,7 +32,13 @@ const drawWhenScroll = () => {
         dotsfill6.style.opacity = 0;
         dotsfill7.style.opacity = 0;
 
-
+        if (img21.classList.contains("img21A")) {
+            img21.classList.remove("img21A")
+        }
+        if (img21.classList.contains("img22A")) {
+           img22.classList.remove("img22A") 
+        }
+        
         firstContent.style.backgroundColor = 'rgb(34, 47, 66)'
         svgPath.style.backgroundColor = 'rgb(34, 47, 66)'
         svgSec.innerHTML = `
@@ -63,6 +69,7 @@ const drawWhenScroll = () => {
 
         img21.classList.add("img21A")
         img22.classList.add("img22A")
+
         firstContent.style.backgroundColor = '#110e3d'
         svgPath.style.backgroundColor = '#110e3d'
         svgSec.innerHTML = `
@@ -90,6 +97,16 @@ const drawWhenScroll = () => {
         dotsfill5.style.opacity = 0;
         dotsfill6.style.opacity = 0;
         dotsfill7.style.opacity = 0;
+
+        if (img21.classList.contains("img21A")) {
+            img21.classList.remove("img21A")
+        }
+        if (img21.classList.contains("img22A")) {
+           img22.classList.remove("img22A") 
+        }
+
+
+
         firstContent.style.backgroundColor = '#393299'
         svgPath.style.backgroundColor = '#393299'
         svgSec.innerHTML = `

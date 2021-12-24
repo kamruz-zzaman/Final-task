@@ -188,15 +188,15 @@
   animation: identifier2 2s 1;
   transition: 0.5s;
 }
-.img22A{
-  animation: identifier 0.5s;
+.img22A {
+  animation: topBottom 1s;
   transition: 0.5s;
 }
-.img21A{
-  animation: identifier2 0.5s;
+.img21A {
+  animation: fromBottom 1s;
   transition: 0.5s;
 }
-.svgtext1{
+.svgtext1 {
   color: gray;
 }
 @keyframes identifier {
@@ -212,10 +212,36 @@
     opacity: 1;
   }
 }
+@keyframes topBottom {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 
 @keyframes identifier2 {
   0% {
-    transform: translateY(200px);
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes fromBottom {
+  0% {
+    transform: translateY(100px);
     opacity: 0;
   }
   50% {
