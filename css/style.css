@@ -1,4 +1,5 @@
 * {
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
 }
@@ -99,21 +100,21 @@
   z-index: 3;
   position: relative;
 }
-.align-div2-text{
+.align-div2-text {
+  margin-top: 160px;
+  margin-left: 200px;
+  z-index: 3;
+  position: relative;
+}
+.align-div4-text {
   margin-top: 150px;
-  margin-left: 200px; 
+  margin-left: 300px;
   z-index: 3;
   position: relative;
 }
-.align-div3-text{
-  margin-top: 140px;
-  margin-left: 250px; 
-  z-index: 3;
-  position: relative;
-}
-.align-div4-text{
-  margin-top: 140px;
-  margin-left: 300px; 
+.align-div3-text {
+  margin-top: 150px;
+  margin-left: 290px;
   z-index: 3;
   position: relative;
 }
@@ -162,6 +163,66 @@
   margin-left: -80px;
   margin-bottom: 50px;
 }
+
+#svgSec {
+  overflow: hidden;
+  /* background-color: #00bf72; */
+}
+.contentAnimation h5:nth-child(1) {
+  animation: identifier 1s 1;
+  transition: 0.5s;
+}
+.contentAnimation h1 {
+  animation: identifier 1s 1;
+  transition: 0.5s;
+}
+.contentImage {
+  animation: identifier 1s 1;
+  transition: 0.5s;
+}
+.contentBottom {
+  animation: identifier 1.5s 1;
+  transition: 0.5s;
+}
+.textContent {
+  animation: identifier2 2s 1;
+  transition: 0.5s;
+}
+.sec-slide-img1{
+  animation: identifier 1s;
+  transition: 0.5s;
+}
+.sec-slide-img2{
+  animation: identifier2 2s;
+  transition: 0.5s;
+}
 .svgtext1{
   color: gray;
+}
+@keyframes identifier {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes identifier2 {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
