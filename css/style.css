@@ -191,8 +191,26 @@
 .img22A {
   animation: topBottom 1s;
   transition: 0.5s;
+  overflow: hidden;
 }
 .img21A {
+  animation: fromBottom 1s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.img41A{
+  animation: fromBottom 1s;
+  transition: 0.5s;
+}
+.img42A{
+  animation: fromBottom 0.5s;
+  transition: 0.5s;
+}
+.img55A{
+  animation: fromRight 0.5s;
+  transition: 0.5s;
+}
+.img72A{
   animation: fromBottom 1s;
   transition: 0.5s;
 }
@@ -214,7 +232,7 @@
 }
 @keyframes topBottom {
   0% {
-    transform: translateY(-300px);
+    transform: translateY(-200px);
     opacity: 0;
   }
   50% {
@@ -228,7 +246,7 @@
 
 @keyframes identifier2 {
   0% {
-    transform: translateY(-300px);
+    transform: translateY(-200px);
     opacity: 0;
   }
   50% {
@@ -241,7 +259,7 @@
 }
 @keyframes fromBottom {
   0% {
-    transform: translateY(100px);
+    transform: translateY(300px);
     opacity: 0;
   }
   50% {
@@ -249,6 +267,19 @@
   }
   100% {
     transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes fromRight {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-1px);
     opacity: 1;
   }
 }
